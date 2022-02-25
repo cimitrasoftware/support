@@ -1,6 +1,8 @@
 
 **DESCRIPTION**
+
 **Issue Description: When the Cimitra Agent on Windows runs an Action, under some conditions, the Action never advanced beyond "Sent" and output from the script does not get logged at the Cimitra Server and the in the Cimitra Web Client results window**
+
 
 **CAUSE**
 The Cimitra Agent for Windows uses the following C# call to launch PowerShell and a script | Exec.ExecuteProcessCommand
