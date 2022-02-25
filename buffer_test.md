@@ -16,7 +16,7 @@ If the output exceeds approximately 96538 characters, Windows ceases to capture 
 
 Send the output of the command generating the characters to a file. For example: 
 
-**[Command that causes output] | Out-File -Append "[Full path to a file that can be written to]"**
+**[Command that causes output]  |  Out-File -Append "[Full path to a file that can be written to]"**
   
  NOTE: You may want to make sure that the file being appended to is deleted each time your script is run. This can be accomplished in this manner: 
   
